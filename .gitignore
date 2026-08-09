@@ -1,0 +1,12 @@
+# Backups
+*.backup-*
+*.antes-*
+*.com-erro
+*.erro-v3
+
+# Arquivos temporários
+.DS_Store
+
+# Node
+node_modules/
+dist/
