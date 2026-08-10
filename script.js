@@ -6,14 +6,18 @@ function mensagem() {
 
 const botaoTema = document.getElementById("tema");
 
-botaoTema.addEventListener("click", function() {
+if (botaoTema) {
 
-    document.body.classList.toggle("claro");
+    botaoTema.addEventListener("click", function () {
 
-    if (document.body.classList.contains("claro")) {
-        botaoTema.innerHTML = "🌙 Modo Escuro";
-    } else {
-        botaoTema.innerHTML = "☀️ Modo Claro";
-    }
+        document.body.classList.toggle("light");
 
-});
+        if (document.body.classList.contains("light")) {
+            botaoTema.innerHTML = "🌙 Modo Escuro";
+        } else {
+            botaoTema.innerHTML = "☀️ Modo Claro";
+        }
+
+    });
+
+}

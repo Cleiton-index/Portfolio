@@ -10,3 +10,6 @@
 # Node
 node_modules/
 dist/
+
+# Backups completos do projeto
+backup-*/

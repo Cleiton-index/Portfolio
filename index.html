@@ -3,367 +3,485 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cleiton Arguelho da Silva | Desenvolvedor Front-End</title>
+
+    <meta
+        name="description"
+        content="Portfólio de Cleiton Arguelho da Silva, Desenvolvedor Front-End."
+    >
+
+    <title>Cleiton Arguelho | Desenvolvedor Front-End</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <nav>
-        <h2>Cleiton Arguelho da Silva</h2>
+    <!-- NAVEGAÇÃO -->
+    <nav class="navbar">
 
-        <ul>
+        <a href="#inicio" class="brand">
+            <span>Cleiton</span> Arguelho
+        </a>
+
+        <ul class="nav-links">
             <li><a href="#inicio">Início</a></li>
             <li><a href="#sobre">Sobre</a></li>
             <li><a href="#habilidades">Habilidades</a></li>
             <li><a href="#projetos">Projetos</a></li>
             <li><a href="#contato">Contato</a></li>
-            
         </ul>
-           <button id="tema">☀️ Modo Claro</button>
+
+        <button id="tema" class="theme-button">
+            ☀️ Modo Claro
+        </button>
+
     </nav>
 
-    <header id="inicio">
 
-        <h1>Cleiton Arguelho da Silva</h1>
+    <main>
 
-        <h2>Desenvolvedor Front-End</h2>
+        <!-- HERO -->
+        <header id="inicio" class="hero">
 
-        <p>
-            Transformando ideias em aplicações web modernas,
-            responsivas e com foco na experiência do usuário.
-        </p>
+            <div class="hero-content">
 
-        <button onclick="mensagem()">Ver Projetos</button>
-
-    </header>
-
-    <section id="sobre">
-
-        <h2>Sobre Mim</h2>
-
-        <p>
-            Olá! Sou <strong>Cleiton Arguelho da Silva</strong>,
-            Desenvolvedor Front-End.
-        </p>
-
-        <p>
-            Formado em Análise e Desenvolvimento de Sistemas e
-            pós-graduando em Engenharia de Software.
-        </p>
-
-        <p>
-            Estou sempre buscando evoluir como desenvolvedor,
-            criando interfaces modernas, responsivas e acessíveis.
-        </p>
-
-        <h3>Tecnologias</h3>
-
-        <p>
-            HTML5 • CSS3 • JavaScript • React • Git • GitHub
-        </p>
-
-    </section>
-
-    <section id="projetos">
-
-<section id="habilidades">
-
-    <h2>Minhas Habilidades</h2>
-
-    <div class="habilidades">
-
-        <div class="habilidade">
-            <h3>HTML5</h3>
-            <p>Estruturação de páginas web semânticas.</p>
-        </div>
-
-        <div class="habilidade">
-            <h3>CSS3</h3>
-            <p>Layouts responsivos, Flexbox, Grid e animações.</p>
-        </div>
-
-        <div class="habilidade">
-            <h3>JavaScript</h3>
-            <p>Interatividade e lógica para aplicações web.</p>
-        </div>
-
-        <div class="habilidade">
-            <h3>React</h3>
-            <p>Desenvolvimento de interfaces modernas.</p>
-        </div>
-
-        <div class="habilidade">
-            <h3>Git</h3>
-            <p>Controle de versão e gerenciamento de projetos.</p>
-        </div>
-
-        <div class="habilidade">
-            <h3>GitHub</h3>
-            <p>Hospedagem e colaboração em projetos.</p>
-        </div>
-
-    <section id="projetos">
-    <h2>Projetos</h2>
-
-    <div class="projetos-container">
-
-        <div class="projeto-card">
-
-            <video autoplay muted loop>
-                <source src="assets/calculadora.mp4" type="video/mp4">
-            </video>
-
-            <div class="projeto-info">
-
-                <h3>Calculadora Web</h3>
-
-                <p>
-                    Calculadora desenvolvida para praticar
-                    lógica de programação e interação com o usuário.
-                </p>
-
-                <div class="tecnologias">
-                    <span>HTML5</span>
-                    <span>CSS3</span>
-                    <span>JavaScript</span>
-                </div>
-
-                <a href="https://github.com/Cleiton-index/CALCULADORA"
-                   target="_blank">
-                    Ver no GitHub
-                </a>
-
-            </div>
-
-        </div>
-
-<div class="projeto-card">
-
-    <div class="projeto-preview">
-    <img src="assets/loja-01.png" alt="Projeto LOJA-01">
-</div>
-
-    <div class="projeto-info">
-
-        <h3>LOJA-01</h3>
-
-        <p>
-            Projeto de loja virtual desenvolvido para praticar
-            desenvolvimento Front-End e interação com o usuário.
-        </p>
-
-        <div class="tecnologias">
-            <span>HTML5</span>
-            <span>CSS3</span>
-            <span>JavaScript</span>
-        </div>
-
-        <a href="https://github.com/Cleiton-index/LOJA-01"
-           target="_blank">
-            Ver no GitHub
-        </a>
-
-    </div>
-        <div class="projeto-card">
-
-    <div class="projeto-preview">
-        <img src="assets/jokempo.jpg" alt="Projeto Jokempô">
-    </div>
-
-    <div class="projeto-info">
-
-        <h3>Jokempô</h3>
-
-        <p>
-            Jogo de Pedra, Papel e Tesoura desenvolvido
-            com HTML, CSS e JavaScript.
-        </p>
-
-        <div class="tecnologias">
-            <span>HTML5</span>
-            <span>CSS3</span>
-            <span>JavaScript</span>
-        </div>
-
-        <a href="https://github.com/Cleiton-index/jokemp-"
-           target="_blank">
-            Ver no GitHub
-        </a>
-
-    </div>
-
-</div>
-
-        </div>
-
-</div>
-    </div>
-</section>
-
-
-        <div class="card">
-            <h3>E-commerce</h3>
-
-            <p>
-                Interface de loja virtual com carrinho de compras
-                desenvolvido em JavaScript.
-            </p>
-
-            <div class="botoes-projeto">
-                <a href="#" target="_blank">Ver Projeto</a>
-                <a href="#" target="_blank">GitHub</a>
-            </div>
-        </div>
-
-
-        <div class="card">
-            <h3>DailyBoost</h3>
-
-            <p>
-                Sistema de gerenciamento de tarefas inspirado
-                em Scrum e Kanban.
-            </p>
-
-            <div class="botoes-projeto">
-                <a href="#" target="_blank">Ver Projeto</a>
-                <a href="#" target="_blank">GitHub</a>
-            </div>
-        </div>
-
-
-        <div class="card">
-            <h3>Jogo da Cobrinha</h3>
-
-            <p>
-                Jogo desenvolvido em JavaScript para praticar
-                lógica de programação e manipulação do DOM.
-            </p>
-
-            <div class="botoes-projeto">
-                <a href="#" target="_blank">Ver Projeto</a>
-                <a href="#" target="_blank">GitHub</a>
-            </div>
-        </div>
-
-    </div>
-
-</section>
-
-
-    <section id="projetos-destaque">
-
-        <h2>Projetos em destaque</h2>
-
-        <p class="destaque-subtitulo">
-            Projetos que representam minha evolução no desenvolvimento
-            de aplicações web.
-        </p>
-
-        <div class="projeto-destaque">
-
-            <div class="projeto-destaque-preview">
-                <div class="devdash-mockup">
-
-                    <div class="mockup-header">
-                        <strong>DevDash</strong>
-                        <span>Dashboard</span>
-                    </div>
-
-                    <div class="mockup-content">
-
-                        <div class="mockup-sidebar">
-                            <span>Dashboard</span>
-                            <span>Projetos</span>
-                            <span>Clientes</span>
-                            <span>Configurações</span>
-                        </div>
-
-                        <div class="mockup-main">
-
-                            <div class="mockup-cards">
-                                <div>Projetos<strong>12</strong></div>
-                                <div>Clientes<strong>8</strong></div>
-                                <div>Faturamento<strong>R$ 24k</strong></div>
-                            </div>
-
-                            <div class="mockup-chart">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="projeto-destaque-info">
-
-                <span class="projeto-destaque-tag">
-                    Projeto em destaque
+                <span class="hero-label">
+                    DESENVOLVEDOR FRONT-END
                 </span>
 
-                <h3>DevDash</h3>
+                <h1>
+                    Transformando ideias em
+                    <span>experiências digitais.</span>
+                </h1>
 
                 <p>
-                    Dashboard de gestão de projetos e clientes,
-                    desenvolvido para organizar informações,
-                    acompanhar projetos e visualizar indicadores
-                    de faturamento em uma interface moderna.
+                    Desenvolvedor Front-End focado na criação de
+                    interfaces modernas, responsivas e funcionais,
+                    com atenção à experiência do usuário.
                 </p>
 
-                <p>
-                    O projeto utiliza componentes React, gerenciamento
-                    de estado, CRUD de clientes e projetos e persistência
-                    de dados com LocalStorage.
-                </p>
+                <div class="hero-actions">
+                    <a href="#projetos" class="button button-primary">
+                        Ver projetos
+                    </a>
 
-                <div class="tecnologias destaque-tecnologias">
-                    <span>React</span>
-                    <span>JavaScript</span>
-                    <span>CSS</span>
-                    <span>Vite</span>
-                    <span>LocalStorage</span>
-                </div>
-
-                <div class="botoes-projeto">
                     <a
-                        href="https://github.com/Cleiton-index/devdash"
+                        href="https://github.com/Cleiton-index"
                         target="_blank"
                         rel="noopener noreferrer"
+                        class="button button-secondary"
                     >
-                        💻 GitHub
+                        GitHub ↗
                     </a>
                 </div>
 
             </div>
 
-        </div>
+            <div class="hero-decoration">
+                <div class="hero-profile">
+                    <img
+                        src="assets/IMG_20260807_071500.jpg"
+                        alt="Cleiton Arguelho da Silva — Desenvolvedor Front-End"
+                    >
+                    <div class="hero-profile-info">
+                        <strong>Cleiton Arguelho da Silva</strong>
+                        <span>Desenvolvedor Front-End</span>
+                    </div>
+                </div>
+            </div>
 
-    </section>
+        </header>
 
-    <section id="contato">
 
-    <h2>Contato</h2>
+        <!-- SOBRE -->
+        <section id="sobre" class="section about">
 
-    <p>Vamos conversar?</p>
+            <div class="section-heading">
+                <span>01 — SOBRE</span>
+                <h2>Quem sou eu</h2>
+            </div>
 
-    <a href="https://www.linkedin.com/in/cleiton-arguelho"
-       target="_blank">
-        💼 LinkedIn
-    </a>
+            <div class="about-grid">
 
-    <a href="https://github.com/Cleiton-index" target="_blank">
-    💻 GitHub
-</a>
+                <div class="about-text">
 
-</section>
+                    <p class="about-lead">
+                        Olá! Sou <strong>Cleiton Arguelho da Silva</strong>,
+                        Desenvolvedor Front-End.
+                    </p>
+
+                    <p>
+                        Sou formado em Análise e Desenvolvimento de Sistemas
+                        e pós-graduando em Arquitetura de Software.
+                    </p>
+
+                    <p>
+                        Minha trajetória representa uma mudança de carreira
+                        em direção à tecnologia, buscando transformar
+                        conhecimentos técnicos em aplicações reais,
+                        funcionais e bem estruturadas.
+                    </p>
+
+                </div>
+
+                <div class="about-highlight">
+
+                    <div>
+                        <strong>Front-End</strong>
+                        <span>Desenvolvimento de interfaces</span>
+                    </div>
+
+                    <div>
+                        <strong>React</strong>
+                        <span>Interfaces e aplicações modernas</span>
+                    </div>
+
+                    <div>
+                        <strong>Software</strong>
+                        <span>Arquitetura de Software</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- HABILIDADES -->
+        <section id="habilidades" class="section skills">
+
+            <div class="section-heading">
+                <span>02 — HABILIDADES</span>
+                <h2>Tecnologias que utilizo</h2>
+                <p>
+                    Ferramentas e tecnologias presentes na minha jornada
+                    de desenvolvimento.
+                </p>
+            </div>
+
+            <div class="skills-grid">
+
+                <article class="skill-card">
+                    <span class="skill-number">01</span>
+                    <h3>HTML5</h3>
+                    <p>Estruturação semântica e acessível para aplicações web.</p>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-number">02</span>
+                    <h3>CSS3</h3>
+                    <p>Layouts responsivos, Flexbox, Grid, animações e interfaces.</p>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-number">03</span>
+                    <h3>JavaScript</h3>
+                    <p>Lógica, interatividade e manipulação do DOM.</p>
+                </article>
+
+                <article class="skill-card featured-skill">
+                    <span class="skill-number">04</span>
+                    <h3>React</h3>
+                    <p>Desenvolvimento de componentes e aplicações modernas.</p>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-number">05</span>
+                    <h3>Git</h3>
+                    <p>Controle de versão e organização do desenvolvimento.</p>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-number">06</span>
+                    <h3>GitHub</h3>
+                    <p>Versionamento, colaboração e apresentação de projetos.</p>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROJETOS -->
+        <section id="projetos" class="section projects">
+
+            <div class="section-heading">
+                <span>03 — PROJETOS</span>
+                <h2>Projetos selecionados</h2>
+                <p>
+                    Alguns dos projetos desenvolvidos durante minha evolução
+                    como desenvolvedor.
+                </p>
+            </div>
+
+            <div class="projects-grid">
+
+                <!-- CALCULADORA -->
+                <article class="project-card">
+
+                    <div class="project-image">
+                        <video autoplay muted loop playsinline>
+                            <source
+                                src="assets/calculadora.mp4"
+                                type="video/mp4"
+                            >
+                        </video>
+                    </div>
+
+                    <div class="project-content">
+
+                        <span class="project-type">
+                            Projeto Front-End
+                        </span>
+
+                        <h3>Calculadora Web</h3>
+
+                        <p>
+                            Calculadora desenvolvida para praticar lógica
+                            de programação, interação e manipulação da interface.
+                        </p>
+
+                        <div class="tech-list">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <a
+                            href="https://github.com/Cleiton-index/CALCULADORA"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="project-link"
+                        >
+                            Ver projeto no GitHub ↗
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- LOJA -->
+                <article class="project-card">
+
+                    <div class="project-image">
+                        <img
+                            src="assets/loja-01.png"
+                            alt="Projeto LOJA-01"
+                            loading="lazy"
+                        >
+                    </div>
+
+                    <div class="project-content">
+
+                        <span class="project-type">
+                            Projeto Front-End
+                        </span>
+
+                        <h3>LOJA-01</h3>
+
+                        <p>
+                            Interface de loja virtual desenvolvida para
+                            praticar desenvolvimento Front-End e interação
+                            com o usuário.
+                        </p>
+
+                        <div class="tech-list">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <a
+                            href="https://github.com/Cleiton-index/LOJA-01"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="project-link"
+                        >
+                            Ver projeto no GitHub ↗
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- JOKEMPÔ -->
+                <article class="project-card">
+
+                    <div class="project-image">
+                        <img
+                            src="assets/jokempo.jpg"
+                            alt="Projeto Jokempô"
+                            loading="lazy"
+                        >
+                    </div>
+
+                    <div class="project-content">
+
+                        <span class="project-type">
+                            Projeto Front-End
+                        </span>
+
+                        <h3>Jokempô</h3>
+
+                        <p>
+                            Jogo de Pedra, Papel e Tesoura desenvolvido
+                            para praticar lógica, eventos e interação
+                            com o usuário.
+                        </p>
+
+                        <div class="tech-list">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <a
+                            href="https://github.com/Cleiton-index/jokemp-"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="project-link"
+                        >
+                            Ver projeto no GitHub ↗
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- DEVDASH -->
+        <section class="section featured-project">
+
+            <div class="section-heading">
+                <span>04 — PROJETO EM DESTAQUE</span>
+                <h2>DevDash</h2>
+                <p>
+                    Um projeto React desenvolvido para demonstrar
+                    evolução técnica e aplicação de conceitos de software.
+                </p>
+            </div>
+
+            <div class="featured-card">
+
+                <div class="featured-image">
+
+                    <img
+                        src="assets/devdash.png"
+                        alt="Interface do Dashboard DevDash"
+                        loading="lazy"
+                    >
+
+                </div>
+
+                <div class="featured-content">
+
+                    <span class="featured-label">
+                        React Application
+                    </span>
+
+                    <h3>
+                        Gestão de projetos e clientes
+                    </h3>
+
+                    <p>
+                        Dashboard desenvolvido em React para organizar
+                        clientes e projetos, acompanhar informações
+                        financeiras e visualizar indicadores em uma
+                        interface moderna.
+                    </p>
+
+                    <p>
+                        O projeto utiliza componentes React, gerenciamento
+                        de estado, operações CRUD e persistência de dados
+                        utilizando LocalStorage.
+                    </p>
+
+                    <div class="tech-list featured-tech">
+                        <span>React</span>
+                        <span>JavaScript</span>
+                        <span>CSS</span>
+                        <span>Vite</span>
+                        <span>LocalStorage</span>
+                    </div>
+
+                    <a
+                        href="https://github.com/Cleiton-index/devdash"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="button button-primary"
+                    >
+                        Ver código no GitHub ↗
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTATO -->
+        <section id="contato" class="section contact">
+
+            <div class="contact-card">
+
+                <div>
+                    <span>05 — CONTATO</span>
+
+                    <h2>
+                        Vamos construir algo
+                        <span>juntos?</span>
+                    </h2>
+
+                    <p>
+                        Estou aberto a oportunidades, projetos e conexões
+                        na área de tecnologia.
+                    </p>
+                </div>
+
+                <div class="contact-links">
+
+                    <a
+                        href="https://www.linkedin.com/in/cleiton-arguelho"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        💼 LinkedIn
+                        <span>↗</span>
+                    </a>
+
+                    <a
+                        href="https://github.com/Cleiton-index"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        💻 GitHub
+                        <span>↗</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>
+            © 2026 Cleiton Arguelho da Silva.
+            Desenvolvedor Front-End.
+        </p>
+    </footer>
+
 
     <script src="script.js"></script>
 
